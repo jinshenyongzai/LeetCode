@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-	bool isPalindrome(int x) {
+	/*bool isPalindrome(int x) {
 
 		if (x < 0 || (x % 10 == 0 && x!= 0))
 			return false;
@@ -16,6 +16,13 @@ public:
 			x /= 10;
 		}
 		return x == revertNum || x == revertNum / 10;
+	}*/
+	bool isPalindrome(int x) {
+
+		string str_x = to_string(x);
+		string str = str_x;
+		reverse(str_x.begin(), str_x.end());
+		return str == str_x;
 	}
 };
 
