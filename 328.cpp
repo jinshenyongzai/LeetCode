@@ -55,9 +55,10 @@ public:
 		ListNode* dummyHead2 = new ListNode(-1);
 		ListNode *subNode1 = dummyHead1, *subNode2 = dummyHead2;
 
+		int index = 0;
 		while (head) {
 
-			if (head->val % 2 == 1) {
+			if (index % 2 == 0) {
 				subNode1->next = head;
 				subNode1 = subNode1->next;
 			}
@@ -66,6 +67,7 @@ public:
 				subNode2 = subNode2->next;
 			}
 
+			index++;
 			head = head->next;
 		}
 
@@ -77,7 +79,7 @@ public:
 
 int main() {
 
-	int arr[] = { 1, 2, 3, 4, 5 };
+	int arr[] = { 2, 1, 3, 5, 6, 4, 7 };
 	int n = sizeof(arr) / sizeof(int);
 
 	ListNode* head = createLinkedList(arr, n);
