@@ -22,12 +22,12 @@ public:
 	}
 };
 
-//int main() {
-//
-//	int left = 1, right = 22;
-//	vector<int> ans = Solution().selfDividingNumbers(left, right);
-//	
-//	for (auto &s : ans)
-//		cout << s << " ";
-//	cout << endl;
-//}
+int main() {
+
+	int left = 1, right = 22;
+	vector<int> ans = Solution().selfDividingNumbers(left, right);
+	
+	for (auto &s : ans)
+		cout << s << " ";
+	cout << endl;
+}
