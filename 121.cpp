@@ -10,9 +10,9 @@ public:
 	}
 };
 
-//int main() {
-//
-//	int	n = 4;
-//	string ans = Solution().countAndSay(n);
-//	cout << ans << endl;
-//}
+int main() {
+
+	int	n = 4;
+	string ans = Solution().countAndSay(n);
+	cout << ans << endl;
+}
