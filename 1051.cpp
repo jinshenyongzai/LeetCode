@@ -23,10 +23,10 @@ public:
 	}
 };
 
-//int main() {
-//
-//	vector<int> heights{ 1,1,4,2,1,3 };
-//
-//	int ans = Solution().heightChecker(heights);
-//	cout << ans << endl;
-//}
+int main() {
+
+	vector<int> heights{ 1,1,4,2,1,3 };
+
+	int ans = Solution().heightChecker(heights);
+	cout << ans << endl;
+}
