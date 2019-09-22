@@ -1,33 +1,45 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 
 class Solution {
 public:
 	vector<vector<int>> threeSum(vector<int>& nums) {
-		
-		int len = nums.size();
-		vector<int> num1(nums), nums2(nums),nums3(nums), res;
-		vector<vector<int>> ress;
-
-
-
-		return ress;
+		sort(nums.begin(), nums.end());
+		vector<vector<int>> res;
+		for (unsigned int i = 0; i < nums.size(); i++) {
+			if ((i > 0) && (nums[i] == nums[i - 1]))
+				continue;
+			int l = i + 1, r = nums.size() - 1;
+			while (l < r) {
+				int s = nums[i] + nums[l] + nums[r];
+				if (s > 0) r--;
+				else if (s < 0) l++;
+				else {
+					res.push_back(vector<int> {nums[i], nums[l], nums[r]});
+					while (l + 1 < r && nums[l] == nums[l + 1]) l++;
+					while (r - 1 > l && nums[r] == nums[r - 1]) r--;
+					l++; r--;
+				}
+			}
+		}
+		return res;
 	}
 };
 
-//int main() {
-//
-//	vector<int> nums{ -1, 0, 1, 2, -1, -4 };
-//	vector<int> temp;
-//
-//	vector<vector<int>> ans = Solution().threeSum(nums);
-//
-//	for (vector<vector<int>>::iterator it = ans.begin(); it != ans.end(); it++){
-//		temp = *it;
-//		for (vector<int>::iterator itee = temp.begin(); itee != temp.end(); itee++)
-//			cout << *itee;
-//		cout << endl;
-//	}
-//}
+int main() {
+
+	vector<int> nums{ -1, 0, 1, 2, -1, -4 };
+
+	vector<vector<int>> ans = Solution().threeSum(nums);
+
+	for (auto &s1 : ans) {
+		cout << "[ ";
+		for (auto& s2 : s1) 
+			cout << s2 << " ";
+		cout << "]" << endl;
+	}
+}
