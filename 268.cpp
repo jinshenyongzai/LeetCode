@@ -17,9 +17,9 @@ public:
 	}
 };
 
-//int main() {
-//
-//	vector<int> nums{ 0 };
-//	int ans = Solution().missingNumber(nums);
-//	cout << ans << endl;
-//}
+int main() {
+
+	vector<int> nums{ 0 };
+	int ans = Solution().missingNumber(nums);
+	cout << ans << endl;
+}
