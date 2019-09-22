@@ -24,11 +24,11 @@ public:
 	}
 };
 
-//int main() {
-//
-//	vector<int> numbers{ 2, 7, 11, 15 };
-//	int target = 9;
-//
-//	vector<int> ans = Solution().twoSum(numbers, target);
-//	cout << "[" << ans[0] << ", " << ans[1] << "]" << endl;
-//}
+int main() {
+
+	vector<int> numbers{ 2, 7, 11, 15 };
+	int target = 9;
+
+	vector<int> ans = Solution().twoSum(numbers, target);
+	cout << "[" << ans[0] << ", " << ans[1] << "]" << endl;
+}
