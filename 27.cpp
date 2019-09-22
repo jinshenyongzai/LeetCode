@@ -17,11 +17,11 @@ public:
 	}
 };
 
-//int main() {
-//
-//	vector<int> nums{ 3,3 };
-//	int val = 3;
-//
-//	int ans = Solution().removeElement(nums, val);
-//	cout << ans << endl;
-//}
+int main() {
+
+	vector<int> nums{ 3,3 };
+	int val = 3;
+
+	int ans = Solution().removeElement(nums, val);
+	cout << ans << endl;
+}
