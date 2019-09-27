@@ -1,12 +1,12 @@
 #include <iostream>
-#include <vector>
+#include <map>
 
 using namespace std;
 
 class MyHashSet {
 public:
 
-	vector<int> hashSet;
+	map<int, int> hashSet;
 
 	/** Initialize your data structure here. */
 	MyHashSet() {
