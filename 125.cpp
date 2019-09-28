@@ -28,10 +28,10 @@ public:
 	}
 };
 
-//int main() {
-//
-//	string s = "A man, a plan, a canal: Panama";
-//
-//	bool ans = Solution().isPalindrome(s);
-//	cout <<  ans << endl;
-//}
+int main() {
+
+	string s = "A man, a plan, a canal: Panama";
+
+	bool ans = Solution().isPalindrome(s);
+	cout <<  ans << endl;
+}
