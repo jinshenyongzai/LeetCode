@@ -31,10 +31,10 @@ public:
 	}
 };
 
-//int main() {
-//
-//	string str = "()[";
-//
-//	bool ans = Solution().isValid(str);
-//	cout << ans << endl;
-//}
+int main() {
+
+	string str = "()[";
+
+	bool ans = Solution().isValid(str);
+	cout << ans << endl;
+}
