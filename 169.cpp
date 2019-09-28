@@ -15,9 +15,9 @@ public:
 	}
 };
 
-//int main() {
-//
-//	vector<int> nums{ 2,2,1,1,1,2,2 };
-//	int ans =Solution().majorityElement(nums);
-//	cout << ans << endl;
-//}
+int main() {
+
+	vector<int> nums{ 2,2,1,1,1,2,2 };
+	int ans =Solution().majorityElement(nums);
+	cout << ans << endl;
+}
