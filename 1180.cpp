@@ -21,9 +21,9 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	string S = "aaaba";
-	int ans = Solution().countLetters(S);
-	cout << ans << endl;
-}
+// 	string S = "aaaba";
+// 	int ans = Solution().countLetters(S);
+// 	cout << ans << endl;
+// }
