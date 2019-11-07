@@ -81,19 +81,19 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> tree = { 3, 9, 20, NULL, NULL, 15, 7 };
-	vector<vector<int>> ans;
+// 	vector<int> tree = { 3, 9, 20, NULL, NULL, 15, 7 };
+// 	vector<vector<int>> ans;
 
-	TreeNode* root = createTree(tree, 0);
-	ans = Solution().levelOrder(root);
+// 	TreeNode* root = createTree(tree, 0);
+// 	ans = Solution().levelOrder(root);
 	
-	for (auto &s1 : ans) {
-		for (auto &s2 : s1)
-			cout << s2 << " ";
-		cout << endl;
-	}
+// 	for (auto &s1 : ans) {
+// 		for (auto &s2 : s1)
+// 			cout << s2 << " ";
+// 		cout << endl;
+// 	}
 
-	return 0;
-}
+// 	return 0;
+// }
