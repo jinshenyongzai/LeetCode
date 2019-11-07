@@ -34,13 +34,13 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	/*vector<string> words = { "cat", "bt", "hat", "tree" };
-	string chars = "atach";*/
-	vector<string> words = { "hello", "world", "leetcode" };
-	string chars = "welldonehoneyr";
+// 	/*vector<string> words = { "cat", "bt", "hat", "tree" };
+// 	string chars = "atach";*/
+// 	vector<string> words = { "hello", "world", "leetcode" };
+// 	string chars = "welldonehoneyr";
 
-	int ans = Solution().countCharacters(words, chars);
-	cout << ans << endl;
-}
+// 	int ans = Solution().countCharacters(words, chars);
+// 	cout << ans << endl;
+// }
