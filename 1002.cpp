@@ -26,8 +26,8 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<string> A{ "bella","label","roller" };
-	Solution().commonChars(A);
-}
+// 	vector<string> A{ "bella","label","roller" };
+// 	Solution().commonChars(A);
+// }
