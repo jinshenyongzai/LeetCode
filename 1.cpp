@@ -23,14 +23,14 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> nums{ 2, 7, 11, 15 };
-	int target = 9;
+// 	vector<int> nums{ 2, 7, 11, 15 };
+// 	int target = 9;
 
-	vector<int> ans = Solution().twoSum(nums, target);
-	if (!ans.empty())
-		cout << ans[0] << " " << ans[1] << endl;
-	else
-		cout << "no answer" << endl;
-}
+// 	vector<int> ans = Solution().twoSum(nums, target);
+// 	if (!ans.empty())
+// 		cout << ans[0] << " " << ans[1] << endl;
+// 	else
+// 		cout << "no answer" << endl;
+// }
