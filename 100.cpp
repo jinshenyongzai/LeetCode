@@ -36,16 +36,16 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> tree1 = { 1, 2, 3 };
-	vector<int> tree2 = { 1, 2, 3 };
+// 	vector<int> tree1 = { 1, 2, 3 };
+// 	vector<int> tree2 = { 1, 2, 3 };
 
-	TreeNode* root1 = createTree(tree1, 0);
-	TreeNode* root2 = createTree(tree2, 0);
+// 	TreeNode* root1 = createTree(tree1, 0);
+// 	TreeNode* root2 = createTree(tree2, 0);
 
-	bool ans = Solution().isSameTree(root1, root2);
-	cout << ans << endl;
+// 	bool ans = Solution().isSameTree(root1, root2);
+// 	cout << ans << endl;
 
-	return 0;
-}
+// 	return 0;
+// }
