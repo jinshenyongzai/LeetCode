@@ -11,9 +11,9 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	string address = "1.1.1.1";
+// 	string address = "1.1.1.1";
 
-	cout << Solution().defangIPaddr(address) << endl;
-}
+// 	cout << Solution().defangIPaddr(address) << endl;
+// }
