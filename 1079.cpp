@@ -32,9 +32,9 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	string S =  "AAB" ;
-	int ans = Solution().numTilePossibilities(S);
-	cout << ans << endl;
-}
+// 	string S =  "AAB" ;
+// 	int ans = Solution().numTilePossibilities(S);
+// 	cout << ans << endl;
+// }
