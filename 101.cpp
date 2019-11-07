@@ -45,14 +45,14 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> tree = { 1, 2, 2, 3, 4, 4, 3 };
+// 	vector<int> tree = { 1, 2, 2, 3, 4, 4, 3 };
 
-	TreeNode* root = createTree(tree, 0);
+// 	TreeNode* root = createTree(tree, 0);
 
-	bool ans = Solution().isSymmetric(root);
-	cout << ans << endl;
+// 	bool ans = Solution().isSymmetric(root);
+// 	cout << ans << endl;
 
-	return 0;
-}
+// 	return 0;
+// }
