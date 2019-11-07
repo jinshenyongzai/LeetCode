@@ -21,13 +21,13 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	int day = 10;
-	int month = 9;
-	int year = 2019;
+// 	int day = 10;
+// 	int month = 9;
+// 	int year = 2019;
 
-	string ans = Solution().dayOfTheWeek(day, month, year);
+// 	string ans = Solution().dayOfTheWeek(day, month, year);
 	
-	cout << ans << endl;
-}
+// 	cout << ans << endl;
+// }
