@@ -17,10 +17,10 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	string text = "nlaebolko";
-	int ans = Solution().maxNumberOfBalloons(text);
+// 	string text = "nlaebolko";
+// 	int ans = Solution().maxNumberOfBalloons(text);
 	
-	cout << ans << endl;
-}
+// 	cout << ans << endl;
+// }
