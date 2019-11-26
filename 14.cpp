@@ -22,20 +22,20 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<string> nums = { "flower","flow","flight" };
-	string res = Solution().longestCommonPrefix(nums);
-	cout << res << endl;
+// 	vector<string> nums = { "flower","flow","flight" };
+// 	string res = Solution().longestCommonPrefix(nums);
+// 	cout << res << endl;
 
-	vector<string> nums1 = { "flower","flower","flower" };
-	string res1 = Solution().longestCommonPrefix(nums1);
-	cout << res1 << endl;
+// 	vector<string> nums1 = { "flower","flower","flower" };
+// 	string res1 = Solution().longestCommonPrefix(nums1);
+// 	cout << res1 << endl;
 
-	vector<string> nums2 = { "dog","racecar","car" };
-	string res2 = Solution().longestCommonPrefix(nums2);
-	cout << res2 << endl;
+// 	vector<string> nums2 = { "dog","racecar","car" };
+// 	string res2 = Solution().longestCommonPrefix(nums2);
+// 	cout << res2 << endl;
 
-	string str = "dog";
-	cout << str.substr(0, 2) << endl;
-}
+// 	string str = "dog";
+// 	cout << str.substr(0, 2) << endl;
+// }
