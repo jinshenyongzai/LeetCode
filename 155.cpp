@@ -36,16 +36,16 @@ private:
  * int param_4 = obj->getMin();
  */
 
-int main() {
+// int main() {
 
-	MinStack* obj = new MinStack();
+// 	MinStack* obj = new MinStack();
 
-	obj->push(-2);
-	obj->push(0);
-	obj->push(-3);
-	cout << obj->getMin() << endl;
+// 	obj->push(-2);
+// 	obj->push(0);
+// 	obj->push(-3);
+// 	cout << obj->getMin() << endl;
 	
-	obj->pop();
-	cout << obj->top() << endl;
-	cout << obj->getMin() << endl;
-}
+// 	obj->pop();
+// 	cout << obj->top() << endl;
+// 	cout << obj->getMin() << endl;
+// }
