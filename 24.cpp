@@ -75,16 +75,16 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	int arr[] = { 1, 2, 3, 4 };
-	int n = sizeof(arr) / sizeof(int);
+// 	int arr[] = { 1, 2, 3, 4 };
+// 	int n = sizeof(arr) / sizeof(int);
 
-	ListNode* head = createlinkedlist(arr, n);
+// 	ListNode* head = createlinkedlist(arr, n);
 
-	ListNode* head1 = Solution().swapPairs(head);
-	printlinkedlist(head1);
+// 	ListNode* head1 = Solution().swapPairs(head);
+// 	printlinkedlist(head1);
 	
-	deletelinkedlist(head1);
-	return 0;
-}
+// 	deletelinkedlist(head1);
+// 	return 0;
+// }
