@@ -22,9 +22,9 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> prices = {7, 1, 5, 3, 6, 4};
-	int ans = Solution().maxProfit(prices);
-	cout << ans << endl;
-}
+// 	vector<int> prices = {7, 1, 5, 3, 6, 4};
+// 	int ans = Solution().maxProfit(prices);
+// 	cout << ans << endl;
+// }
