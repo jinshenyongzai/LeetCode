@@ -50,10 +50,10 @@ public:
 	}
 };
 
-int main() {
+// int main() {
 
-	vector<int> nums = { 2, 7, 9, 3, 1 };
-	cout << Solution().rob(nums) << endl;
+// 	vector<int> nums = { 2, 7, 9, 3, 1 };
+// 	cout << Solution().rob(nums) << endl;
 	
-	return 0;
-}
+// 	return 0;
+// }
